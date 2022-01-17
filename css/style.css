@@ -1,0 +1,34 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(177, 132, 177);
+     margin: 0;
+     display: grid;
+     align-content: center;
+     min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: white;
+    max-width: 30em;
+    margin: 0 auto; 
+}
+
+ul {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
