@@ -14,10 +14,10 @@ body {
     line-height: 1.4;
 }
 
-/* HEADER */
+/* SITE STRUCTURE */
 header {
     background-color: rgb(145, 127, 209);
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,7 +26,7 @@ header {
 }
 
 header a {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
 }
 
@@ -55,35 +55,13 @@ header a:hover {
 
 /* MAIN */
 main {
-    background: rgba(0, 0, 0, .05);
-}
-
-/* FOOTER */
-footer {
-    border-top: 1px solid rgba(0,0,0,.05);
-    padding: 1em;
-}
-
-/* SOCIAL NAV */
-.social-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    
-}
-
-
-.social-nav a {
-    display: block;
-    padding: 1em;
+    background: rgba(0, 0, 0,.05);
 }
 
 /* HERO SECTION */
 .hero {
     background-color: rgb(145, 127, 209);
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 6em 1em;
 }
@@ -117,3 +95,26 @@ footer {
 .courses h3 {
     text-align: center;
 }
+
+/* FOOTER */
+footer {
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding: 1em;
+}
+
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;   
+}
+
+.social-nav a {
+    display: block;
+    padding: 1em;
+}
+
+
+
