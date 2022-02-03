@@ -1,35 +1,119 @@
+/* GLOBAL RESET */
+* { box-sizing: border-box;}
+body { margin: 0;}
+
+/* GLOBAL COLORS */
+body { color: rgba(0, 0, 0, 0.8);}
+a { color: rgb(145, 127, 209); }
+a:hover { color: rgb(124, 105, 189); }
+
+/* GLOBAL TYPOGRAPHY */
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: rgb(177, 132, 177);
-     margin: 0;
-     display: grid;
-     align-content: center;
-     min-height: 100vh;
-     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 88.75%; /* 14px */;
+    line-height: 1.4;
 }
 
-h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    text-align: center;
+/* HEADER */
+header {
+    background-color: rgb(145, 127, 209);
+    color: rgba(255, 255, 255, .8);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
 }
 
-h2 {
-    text-align: center;
+header a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
 }
 
-p {
-    color: white;
-    max-width: 30em;
-    margin: 0 auto; 
+header a:hover {
+    color: rgba(255, 255, 255, 1);
 }
 
-ul {
-    text-align: left;
-    margin: 0 auto;
+/* SITE ID */
+.site-id h1 {
+    margin: 0;
+}
+
+/* SITE NAV */
+.site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-a {
-    color: white;
+.site-nav a {
+    display: block;
+    padding: 1em;
+}
+
+/* MAIN */
+main {
+    background: rgba(0, 0, 0, .05);
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding: 1em;
+}
+
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+
+.social-nav a {
+    display: block;
+    padding: 1em;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: rgb(145, 127, 209);
+    color: rgba(255, 255, 255, .8);
+    text-align: center;
+    padding: 6em 1em;
+}
+
+.hero h2 {
+    font-size: 6em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.hero p {
+    max-width: 30em;
+    text-align: center;
+    margin: 1em auto;
+}
+
+/* COURSES SECTION */
+.courses {
+    padding: 1em 6em;
+    display: grid;
+    justify-content: center;
+}
+
+.courses ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.courses h3 {
+    text-align: center;
 }
