@@ -4,8 +4,8 @@ body { margin: 0;}
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8);}
-a { color: rgb(145, 127, 209); }
-a:hover { color: rgb(124, 105, 189); }
+a { color: rgb(203, 75, 207); }
+a:hover { color: rgb(172, 53, 156); }
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -16,7 +16,7 @@ body {
 
 /* SITE STRUCTURE */
 header {
-    background-color: rgb(145, 127, 209);
+    background-color: rgb(134, 58, 141);
     color: rgba(255, 255, 255, 0.8);
     padding: 1em;
     display: grid;
@@ -60,7 +60,7 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgb(145, 127, 209);
+    background-color: rgb(191, 63, 202);
     color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 6em 1em;
@@ -146,12 +146,27 @@ aside {
 }
 
 
-/* STYLING FOR SUB PAGES */ 
+/* CUSTOM STYLING FOR SPECIFIC & SUB PAGES */ 
 .page-sub .hero {
     background-color: rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);  
 
 }
+
+.page-home .hero{
+    background-image: url('../img/purple.JPG');
+    background-size: cover;
+    background-position: center;
+    padding: 30vh 1em 20vh 1em;
+}
+
+.page-home header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+
 
 /* COURSE WORK SECTION */
 .coursework {
