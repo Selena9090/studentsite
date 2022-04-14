@@ -128,8 +128,8 @@ img {
 button, form input[type="submit"] {
     font-size: inherit;
     line-height: 1em;
-    background-color: rgba(189, 35, 194, 1);
-    border: 1px solid rgb(189, 35, 194);
+    background-color: #A9802F;
+    border: 1px solid #A9802F;
     color: rgba(255, 255, 255, 1);
     padding: 1em;
     display: inline-block;
@@ -140,9 +140,9 @@ button, form input[type="submit"] {
 
 .button:hover,
 button:hover, form input[type="submit"]:hover {
-    background-color:rgba(160, 26, 165, 1);
-    border-color:rgba(160, 26, 165, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: #a9802fd2;
+    border-color: #a9802fd2;
+    color: #E5D3C1;
     text-decoration: none;
 }
 
@@ -535,6 +535,14 @@ form input[type="submit"] {
 }
 
 #contact {
-    background: rgba(0, 0, 0, .1);
+    background: #BCB1AC;
 }
+
+.inlineBlockElement {
+    display: inline-block;
+    margin: 10px;
+    padding: .5em;
+  }
+
+
 
