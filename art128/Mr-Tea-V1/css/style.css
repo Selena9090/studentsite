@@ -544,5 +544,21 @@ form input[type="submit"] {
     padding: .5em;
   }
 
+  #locations {
+      background: #E5D3C1;
+  }
+
+  #catering {
+      background: #493E3E;
+  }
+
+  .site-footer {
+    background: #A9802F;
+}
+
+
+  
+  
+  
 
 
