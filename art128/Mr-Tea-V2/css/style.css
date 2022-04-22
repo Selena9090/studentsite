@@ -341,9 +341,19 @@ section {
 
 /* HERO */
 .hero {
-    padding: 6em 4%;
-    background-color: rgba(0,0,0,.1);
+    padding: 3em 1em;
+    background-color: #492E20;
     text-align: center; 
+}
+
+.container-hero {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url('../img/mr.tea-hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 319px;
 }
 
 .hero h1, p {
@@ -554,9 +564,41 @@ form input[type="submit"] {
       font-family: 'Staatliches', cursive;
   }
 
+  /* MENU SECTION */
+
   #menu {
-    font-family: 'Staatliches', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #3A3737;
+    color: #EBE7E7;
+    list-style-type: none;
   }
+
+.menu-box {
+    text-align: center;
+    border: 2px solid #A9802F;
+    padding: 1em;
+  }
+
+.menu-box h4 {
+    display: inline-block;
+    color: #E5D3C1;
+}
+
+.menu-box ul {
+    margin: 0;
+    padding: 0;
+}
+.menu-box li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-box .two-column {
+    columns: 2;
+}
+
+
 
   #catering {
       background: #493E3E;
