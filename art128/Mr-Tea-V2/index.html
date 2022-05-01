@@ -141,59 +141,46 @@
             <h6>Hours:</h6>
             <p>Monday - Thursday : 11:00am - 10:30pm</p>
             <p>Friday - Sunday : 11:00am - 10:30pm</p>
+        </div>
+    </div>
 </section>                       
 
 <section id="menu" class="menu">             
     <h3 class="section-title">Menu</h3>
-        <div class="row">
-            <div class="column one-fourth">
-                <div class="menu-box">
-                    <h1>Milk Teas</h1>
-                    <h4>R-$3.99</h4> <h4>L-$4.99</h4>               
-                        <ul class="two-column">
-                            <li>Black</li>
-                            <li>Jasmine Green</li>
-                            <li>Roasted Oolong</li>
-                            <li>Earl Grey</li>
-                            <li>Wintermelon</li>
-                            <li>Taro</li>
-                            <li>Honeydew Melon</li>
-                            <li>Cotton Candy</li>
-                            <li>Banana</li>
-                            <li>Chocolate</li>
-                            <li>Vanilla</li>
-                            <li>Almond</li>
-                            <li>Strawberry</li>
-                            <li>Sesame</li>
-                            <li>Watermelon</li>
-                            <li>Coconut</li>
-                            <li>Thai</li>
-                            <li>Matcha</li>
-                            <li>Hazelnut</li>
-                            <li>Peppermint</li>
-                        </ul> 
-                </div>
-        </div>
-            
-            <div class="column one-fourth">
-                <div class="menu-box">
-                    one 
-                    </div>
-                </div>
-                <div class="column one-fourth">
-                    <div class="menu-box">
-                        one 
-                    </div>
-                </div>
-                <div class="column one-fourth">
-                    <div class="menu-box">
-                        one 
-                </div>
-                </div>
+    <div class="row menu-row">
+        <div class="column one-fourth">
+            <div class="menu-box">
+                <h1>Milk Teas</h1>
+                <h4>R-$3.99</h4> <h4>L-$4.99</h4>               
+                <ul class="two-column">
+                    <li>Black</li>
+                    <li>Jasmine Green</li>
+                    <li>Roasted Oolong</li>
+                    <li>Earl Grey</li>
+                    <li>Wintermelon</li>
+                    <li>Taro</li>
+                    <li>Honeydew Melon</li>
+                    <li>Cotton Candy</li>
+                    <li>Banana</li>
+                    <li>Chocolate</li>
+                    <li>Vanilla</li>
+                    <li>Almond</li>
+                    <li>Strawberry</li>
+                    <li>Sesame</li>
+                    <li>Watermelon</li>
+                    <li>Coconut</li>
+                    <li>Thai</li>
+                    <li>Matcha</li>
+                    <li>Hazelnut</li>
+                    <li>Peppermint</li>
+                </ul> 
             </div>
-                                                                 
-    <h1>Iced Teas</h1>
-    <h4>R-$3.75</h4> <h4>L-$4.50</h4>
+        </div>
+        
+        <div class="column one-fourth">
+            <div class="menu-box">
+                <h1>Iced Teas</h1>
+                <h4>R-$3.75</h4> <h4>L-$4.50</h4>
                                  
         <ul>
             <li>Black</li>
@@ -204,10 +191,10 @@
             <li>Fruit Tea +25¢</li>
             <li>Li Hing +50¢</li>
         </ul>
-                                                                                    
-    <h1>Hot Teas</h1>
-    <h4>+$2.99</h4>
-                                
+
+                <h1>Hot Teas</h1>
+                <h4>+$2.99</h4>
+                            
         <ul>
             <li>Ginger Ginseng</li>
             <li>Cran-Pomegranate</li>
@@ -215,8 +202,12 @@
             <li>English Breakfast</li>
             <li>Chamomile</li>
         </ul>
-                                                              
-    <h1>Special Teas</h1>
+            </div>
+        </div>
+        
+        <div class="column one-fourth">
+            <div class="menu-box">
+                <h1>Special Teas</h1>
                                 
         <ul>
             <li>Potter Milk Tea
@@ -241,9 +232,12 @@
                 <p>$5.99</p>
             </li>
         </ul>
-                                                               
-    <h1>Smoothies</h1>
-    <h4>R-$3.99</h4> <h4>L-$4.99</h4>
+            </div>
+        </div>
+        <div class="column one-fourth">
+            <div class="menu-box">
+                <h1>Smoothies</h1>
+                <h4>R-$3.99</h4> <h4>L-$4.99</h4>
                     
         <ul>
             <li>Passion Fruit</li>
@@ -255,7 +249,111 @@
             <li>Kumquat</li>
             <li>Blueberry</li>
             <li>Li Hing</li>
-        </ul>
+        </ul> 
+            </div>
+        </div>
+    </div>
+
+    <div id="main-title" class="text-column">
+        <h1 id="title">
+          Bubble Tea Order Form
+        </h1>
+        <p id="description">Here you can order bubble tea directly to your door!</p>
+      </div>
+      <form id="survey-form">
+        <div id="my-survey-form" class="text-column">
+          <div class="form-grid">
+            <label id="name-label" for="name">
+          <h2>Name</h2>
+           </label>
+            <input id="name" type="text" placeholder="Your Name" maxlength="40" required>
+          </div>
+          <div class="form-grid">
+            <label id="email-label" for="email">
+          <h2>Email</h2>
+           </label>
+            <input id="email" type="email" placeholder="example@example.com" required>
+          </div>
+          <div class="form-grid">
+            <label id="number-label" for="name">
+          <h2>How many?</h2>
+           </label>
+            <input id="number" type="number" placeholder="Quantity" min="1" max="4" maxlength="2">
+          </div>
+          <div id="form-grid">
+            <label for="dropdown">
+          <h2>Flavor</h2>
+           </label>
+            <select id="dropdown">
+              <option value="0" selected disabled>No Flavor Selected</option>
+              <option value="Black">Black</option>
+              <option value="Jasmine Green">Jasmine Green</option>
+              <option value="Roasted Oolong">Roasted Oolong</option>
+              <option value="Earl Grey">Earl Grey</option>
+              <option value="Wintermelon">Wintermelon</option>
+              <option value="Taro">Taro</option>
+              <option value="Honeydew Melon">Honeydew Melon</option>
+              <option value="Cotton Candy">Cotton Candy</option>
+              <option value="Banana">Banana</option>
+              <option value="Chocolate">Chocolate</option>
+              <option value="Vanilla">Vanilla</option>
+              <option value="Almond">Almond</option>
+              <option value="Strawberry">Strawberry</option>
+              <option value="Sesame">Sesame</option>
+              <option value="Watermelon">Coconut</option>
+              <option value="Coconut">Coconut</option>
+              <option value="Thai">Thai</option>
+              <option value="Matcha">Matcha</option>
+              <option value="Hazelnut">Hazelnut</option>
+              <option value="Peppermint">Peppermint</option>
+              <option value="Fruit Tea">Fruit Tea</option>
+              <option value="Li Hing">Li Hing</option> 
+              <option value="Ginger Ginseng">Ginger Ginseng</option>
+              <option value="Cran-Pomegranate">Cran-Pomegranate</option>
+              <option value="English Breakfast">English Breakfast</option>
+              <option value="Chamomile">Chamomile</option>
+              <option value="Potter Milk Tea">Potter Milk Tea</option>
+              <option value="Cookies N' Cream">Cookies N' Cream</option>
+              <option value="Nutella Milk Tea">Nutella Milk Tea</option>
+              <option value="Chai Milk Tea">Chai Milk Tea</option>
+              <option value="Cereal Milk Tea">Cereal Milk Tea</option>
+              <option value="M&M">M&M</option>
+              <option value="Passion Fruit">Passion Fruit</option>
+              <option value="Mango">Mango</option>
+              <option value="Lychee">Lychee</option>
+              <option value="Guava">Guava</option>
+              <option value="Green Apple">Green Apple</option>
+              <option value="Kumquat">Kumquat</option>
+              <option value="Blueberry">Blueberry</option>
+            </select>
+          </div>
+          <div class="form-grid">
+          <h2>Blended?</h2>
+            <label for="blended" class="radio-input">
+              <input id="blended" type="radio" name="blended" value="blended" checked> Yes please!</label>
+          <label for="smooth" class="radio-input">
+              <input id="smooth" type="radio" name="blended" value="smooth"> No thanks</label>
+          </div>
+           <div class="form-grid">
+            <label id="comment-label">
+          <h2>Additional Comments</h2>
+           </label>
+             <textarea max="100" placeholder="Comments? Concerns?"></textarea>
+          </div>
+          <div class="form-grid">
+          <h2>SUBMIT</h2>
+          <label class="accept-box" for="accept">
+            <input type="checkbox" value="charge-accept" required>I understand I will be charged for this order.
+            </label>
+            <br>
+                <label class="accept-box" for="accept">
+            <input type="checkbox" value="charge-accept" required>I understand that submitting this form after closing hours will not result in an order being fulfilled.
+            </label>
+            <br>
+            <button id="submit" type="submit">Submit</button>
+          <div>
+      </form>
+      </div>
                                                                  
 </section>
 
@@ -298,16 +396,16 @@
         <div class="container">
 
             <h3 class="section-title">Photos</h3>
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
-            <img src="img/placeholder-1x1.gif" alt="placeholder" width="200" height="200">
+            <img src="img/milk-tea-drink_1.jpg" alt="milk tea in hand with background 1." width="200" height="200">
+            <img src="img/milk-tea-drink_2.jpg" alt="milk tea in hand with background 2." width="200" height="200">
+            <img src="img/milk-tea-drink_3.jpg" alt="milk tea in hand with background 3." width="200" height="200">
+            <img src="img/milk-tea-drink_4.jpg" alt="milk tea in hand with background 4." width="200" height="200">
+            <img src="img/milk-tea-drink_5.jpg" alt="milk tea in hand with background 5." width="200" height="200">
+            <img src="img/milk-tea-drink_6.jpg" alt="milk tea in hand with background 6." width="200" height="200">
+            <img src="img/milk-tea-drink_7.jpg" alt="milk tea in hand with background 7." width="200" height="200">
+            <img src="img/milk-tea-drink_8.jpg" alt="milk tea in hand with background 8." width="200" height="200">
+            <img src="img/milk-tea-drink_9.jpg" alt="milk tea in hand with background 9." width="200" height="200">
+            <img src="img/milk-tea-drink_10.jpg" alt="milk tea in hand with background 10." width="200" height="200">
             
         </div>               
     </section>

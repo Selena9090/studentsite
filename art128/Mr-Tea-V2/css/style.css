@@ -366,7 +366,7 @@ section {
 
 @media (max-width: 767px) {
     .toggle-nav .site-id {
-        position: absolute;
+        /* position: absolute; */
     }
     .toggle-nav .site-nav  {
         text-align: right;
@@ -568,9 +568,16 @@ form input[type="submit"] {
 
   #menu {
     font-family: 'Fredericka the Great', cursive;
-    background-color: #3A3737;
+    background-color: rgb(136, 88, 15);
+    background-image: url('../img/wood-grain-texture.jpg');
+    background-size: cover;
     color: #EBE7E7;
     list-style-type: none;
+  }
+
+  .menu-row {
+      background-color: #3A3737;
+      padding: 2em;
   }
 
 .menu-box {
@@ -598,11 +605,14 @@ form input[type="submit"] {
     columns: 2;
 }
 
-
+.row.menu-row > .column {
+    margin-bottom: 0;
+}
 
   #catering {
       background: #493E3E;
       font-family: 'Staatliches', cursive;
+      color: #E5D3C1;
   }
 
   #photos {
@@ -617,6 +627,25 @@ article p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
 }
+
+.text-column {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1em;
+    background-color: #3A3737;
+  }
+
+  #main-title {
+    text-align: center;
+  }
+
+  #main-title h1 {
+    font-size: 3em;
+    margin-bottom: .25em;
+  }
+  
+  
 
 
 
