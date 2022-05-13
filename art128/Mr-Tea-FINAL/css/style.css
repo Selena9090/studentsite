@@ -566,6 +566,7 @@ form input[type="submit"] {
 
 
 
+
   /* MENU SECTION */
 
   #menu {
@@ -636,6 +637,7 @@ article p {
     margin-right: 10%;
     border-radius: 1em;
     background-color: #3A3737;
+    padding: 1em;
   }
 
   #main-title {
