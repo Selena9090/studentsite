@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Hello Vintage</title>
+    <meta name="description" content="A simple sassy css website starter." />
+
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- MAIN CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="site-id">
+            <div class="logomark">
+                <a href="index.html"><img src="img/hello-vintage-logo_2.svg" alt="Site Name Logo" width="300" height="300"></a>
+            </div>
+            <h1 class="hide-visually"><a href="index.html">Hello Vintage</a></h1>
+        </div>
+        <nav class="site-nav" data-navstate="closed">
+
+            <button class="menu-button">
+                <div class="menu-button-text hide-visually">Menu</div>
+                <svg width="40" height="24" class="squish-x-animation">
+                    <rect id="menubar-top" x="0" y="0" width="40" height="4" />
+                    <rect id="menubar-mid" x="0" y="10" width="40" height="4" />
+                    <rect id="menubar-bot" x="0" y="20" width="40" height="4" />
+                </svg>
+            </button>
+
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="collection.html">Collection</a></li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="site-main">
+
+        <section class="hero">
+        
+                <h1>Contact Us</h1>
+    
+                <p>Please leave your information below.</p>
+    
+        </section>
+    
+        <div class="container">
+            
+                    
+            <form>
+    
+                <label for="contact_name">Name:</label>
+                <input type="text" id="contact_name" name="contact_name" />
+    
+                <label for="email">Email Address:</label>
+                <input type="text" id="contact_email" name="contact_email" />
+
+                <label for="email">Phone:</label>
+                <input type="text" id="contact_phone" name="contact_phone" />
+
+                <label for="email">T-Shirt:</label>
+                <label for="dropdown">
+                </label>
+                <select id="dropdown">
+                    <option value="0" selected disabled>No Item Selected</option>
+                    <option value="Glitch Tee (Black)">Glitch Tee (Black)</option>
+                    <option value="Skull Tee (Black)">Skull Tee (Black)</option>
+                    <option value="Skull Tee (White)">Skull Tee (White)</option>
+                    <option value="Portrait Tee (Brown)">Portrait Tee (Brown)</option>
+                    <option value="Portrait Tee (Grey)">Portrait Tee (Grey)</option>
+                    <option value="Bring The Noize (Black)">"Bring The Noize" (Black)</option>
+                    <option value="Graffiti Print Tee (Purple)">Graffiti Print Tee (Purple)</option>
+                    <option value="Graffiti Print Tee (Grey)">Graffiti Print Tee (Grey)</option>
+                    <option value="Graffiti Print Tee (Black)">Graffiti Print Tee (Black)</option>
+                </select>
+
+                <label for="email">Size:</label>
+                <label for="dropdown">
+                </label>
+                <select id="dropdown">
+                    <option value="0" selected disabled>No Item Selected</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="1X">1X</option>
+                    <option value="2X">"2X</option>
+                    <option value="3X">3X</option>
+                </select>
+    
+                <label for="contact_message">Message:</label>
+                <textarea type="text" id="contact_message" name="contact_message"></textarea>
+    
+                <input type="submit" value="Submit" />
+    
+    
+            </form>
+    
+        </div>
+
+    </main>
+    <footer class="site-footer">
+        <div class="contactus">
+            <div class="container full-width">
+                <div class="row">
+                    <div class="one-third column">
+                    <h4>GET UPDATES ON FUN STUFF YOU PROBABLY WANT TO KNOW ABOUT IN YOUR INBOX.</h4>
+                    
+                </div>
+    
+                <div class="one-third column">
+                <a href="index.html"><img src="img/hellovintage-logo.svg" width="200" height="200" alt="Hello Vintage Logo"></a>
+                </div>
+    
+                <div class="one-third column">
+                    <h2>Menu</h2>
+                    <nav class="site-nav">
+                        <ul>
+                            <li><a href="about/index.html">About Us</a></li>
+                            <li><a href="collection.html">Collection</a></li>
+                            <li><a href="contact/index.html">Contact</a></li>
+                        </ul>
+                        
+                    </nav>
+
+                <div class="one-third column">
+                    <h3>Follow Us On</h3>
+                    <a href="#">
+                        <img src="img/instagram.png" alt="Hello Vintage Instagram" style="width:50px;height:50px;">
+                          </a>
+                          <a href="#">
+                        <img src="img/twitter.png" alt="Hello Vintage Twitter" style="width:50px;height:50px;">
+                          </a>
+        
+                </div>
+         </div>
+        </div>
+    </footer>
+    
+    
+    
+        <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+        <script src="js/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 800,
+                speedAsDuration: true
+            });
+        </script>
+    
+        <!-- MAIN JS SCRIPT.JS -->
+        <script src="js/script.js" defer></script>
+    
+    </body>
+    
+    </html>
+    
